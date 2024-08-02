@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question and Quotation</title>
+    <title>Quiz Question</title>
     <style>
         blockquote {
             max-width: 600px;
@@ -16,26 +16,24 @@
     </style>
 </head>
 <body>
-
-    <!-- Question with Radio Buttons -->
-			
+    <form>
+        <fieldset>
             <legend>What is the capital of India?</legend>
-			
             <label>
-                <input type="radio" name="capital" value="New Delhi"> New Delhi
-			</label>
-			
-			<br>
-            
-			<label>
-                <input type="radio" name="capital" value="Mumbai"> Mumbai
+                <input type="radio" name="capital" value="New Delhi">
+                New Delhi
             </label>
+            <br>
+            <label>
+                <input type="radio" name="capital" value="Mumbai">
+                Mumbai
+            </label>
+        </fieldset>
+    </form>
 
-    <!-- Quotation -->
     <blockquote>
-      New Delhi is the capital of India and an administrative district of NCT Delhi.
-      <cite><a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Source: Wikipedia</a></cite>
+        "New Delhi is the capital of India and an administrative district of NCT Delhi." – <a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Wikipedia</a>
     </blockquote>
-
 </body>
 </html>
+
