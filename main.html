@@ -1,5 +1,5 @@
 <!doctype>
-<html>
+<html lang="UTF-8">
 	<head>
      
     <title>Quiz Question</title>
@@ -10,18 +10,20 @@
 				padding:15px;px
 				border-left:8px solid green;
 				background-color:#f8fffe;
-				font-weight:bold
+				font-weight:bold;
 			}
 		</style>
 	</head>
 	
 	<body>
-		<h1>What is the captial of India?</h1>
-		<radio>
-			<input type="radio">New Delhi
-			<br>
-			<input type="radio">Mumbai
-		</radio>
+		<from>
+			<h1>What is the captial of India?</h1>
+        <input type="radio" id="new-delhi" name="capital" value="New Delhi">
+        <label for="new-delhi">New Delhi</label><br>
+        <input type="radio" id="mumbai" name="capital" value="Mumbai">
+        <label for="mumbai">Mumbai</label>
+		
+		</from>
 		<blockquote class="quotation">
 			New Delhi is the capital of India and an administrative district of NCT Delhi.
 			<cite>Wikipedia</cite>
